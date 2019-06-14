@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+/**para que los tamaños no aumenten
+Resetear estilos para trabajar de cero.**/
+body {
+	max-width: 1200px;
+    font-family: arial,helvetica, sans-serif;
+    height: 100%;
+    padding: 0px 40px 20px 40px ;
+    margin: 0% 15% 0% 15%;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    background-repeat: no-repeat;
+	background-attachment: fixed; 
+	position: relative;
+}
+h1{
+	font-size: 4rem;
+	text-align: center;
+	margin: 1rem 0rem 2rem 0rem;
+	color: #5A7FBB;
+}
+h2{
+	font-size: 3rem;
+	text-align: center;
+	margin: 1rem 0rem 2rem 0rem;
+	color: #620D0D;
+}
+a{
+	text-decoration: none;
+}
+div.fixed{
+	max-width: 1200px;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+	position: fixed;
+}
+div.columnas{
+	max-width: 1200px;
+	width: 100%;
+	display: flex;/**Estas dos lines hacen las 3 columnas**/
+	justify-content: center;/**Estas dos lines hacen las 3 columnas**/
+	padding: 160px 0px 40px 0px;
+}
+
+#colum{
+	max-width: 1200px;
+	width: 33%;
+	padding: 0% 1.5% 0% 1.5%;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.footer{
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+	font-size:24px;
+}
+
+
